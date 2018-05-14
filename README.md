@@ -1,2 +1,14 @@
 # N
-Notification when a long running commandline finishes
+Notification when a cli command finishes
+
+## Installation
+
+
+## Usage 
+`n <bash command>`
+
+For example, 
+`n cp very_large_file.bin /tmp/`
+
+## Screen Shot
+![screen shot](https://github.com/madhavanmalolan/N/blob/master/screenshot.png?raw=true)
