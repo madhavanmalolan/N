@@ -1,5 +1,7 @@
+![Works on linux](https://img.shields.io/badge/Works%20On-Linux-blue.svg)
 # N
-Notification when a cli command finishes
+Notification when a cli command finishes.
+
 
 ## Installation
 `curl https://raw.githubusercontent.com/madhavanmalolan/N/master/install.sh | sudo sh -`
