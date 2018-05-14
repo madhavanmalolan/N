@@ -2,7 +2,7 @@
 Notification when a cli command finishes
 
 ## Installation
-
+`curl https://raw.githubusercontent.com/madhavanmalolan/N/master/install.sh | sudo sh -`
 
 ## Usage 
 `n <bash command>`
