@@ -1,4 +1,5 @@
 ![Works on linux](https://img.shields.io/badge/Works%20On-Linux-blue.svg)
+![Works on MacOS](https://img.shields.io/badge/Works%20On-MacOS-blue.svg)
 
 # N
 
