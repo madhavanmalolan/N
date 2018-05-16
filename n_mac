@@ -1,0 +1,10 @@
+#!/bin/bash
+
+com=""
+for i in `seq $#`
+do
+    com=`echo $com ${!i}`
+done
+$com
+
+osascript -e 'display notification  "Exit code: '"$?"'" with Title "Command \"'"$1"'\" completed"'
