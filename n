@@ -7,4 +7,14 @@ do
 done
 $com
 
-notify-send "$1 - completed" "Exit code : $?"
+unameOS="$(uname -s)"
+case "${unameOS}" in
+    Linux*)
+        notify-send "$1 - completed" "Exit code : $?"
+        ;;
+    Darwin*)
+        osascript -e 'display notification  "Exit code: '"$?"'" with Title "Command \"'"$1"'\" completed"'
+        ;;
+esac
+
+
